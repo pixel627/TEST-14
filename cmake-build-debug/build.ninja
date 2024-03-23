@@ -61,6 +61,36 @@ build CMakeFiles/TEST_14.dir/libs/data_structures/vector/vector.c.obj: C_COMPILE
   OBJECT_DIR = CMakeFiles\TEST_14.dir
   OBJECT_FILE_DIR = CMakeFiles\TEST_14.dir\libs\data_structures\vector
 
+build CMakeFiles/TEST_14.dir/libs/data_structures/matrix/matrix.c.obj: C_COMPILER__TEST_14_unscanned_Debug C$:/TEST$ 14/libs/data_structures/matrix/matrix.c || cmake_object_order_depends_target_TEST_14
+  DEP_FILE = CMakeFiles\TEST_14.dir\libs\data_structures\matrix\matrix.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TEST_14.dir
+  OBJECT_FILE_DIR = CMakeFiles\TEST_14.dir\libs\data_structures\matrix
+
+build CMakeFiles/TEST_14.dir/libs/data_structures/matrix/matrix_test.c.obj: C_COMPILER__TEST_14_unscanned_Debug C$:/TEST$ 14/libs/data_structures/matrix/matrix_test.c || cmake_object_order_depends_target_TEST_14
+  DEP_FILE = CMakeFiles\TEST_14.dir\libs\data_structures\matrix\matrix_test.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TEST_14.dir
+  OBJECT_FILE_DIR = CMakeFiles\TEST_14.dir\libs\data_structures\matrix
+
+build CMakeFiles/TEST_14.dir/libs/data_structures/orderedset/orderedset.c.obj: C_COMPILER__TEST_14_unscanned_Debug C$:/TEST$ 14/libs/data_structures/orderedset/orderedset.c || cmake_object_order_depends_target_TEST_14
+  DEP_FILE = CMakeFiles\TEST_14.dir\libs\data_structures\orderedset\orderedset.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TEST_14.dir
+  OBJECT_FILE_DIR = CMakeFiles\TEST_14.dir\libs\data_structures\orderedset
+
+build CMakeFiles/TEST_14.dir/libs/data_structures/unorderedset/unorderedset.c.obj: C_COMPILER__TEST_14_unscanned_Debug C$:/TEST$ 14/libs/data_structures/unorderedset/unorderedset.c || cmake_object_order_depends_target_TEST_14
+  DEP_FILE = CMakeFiles\TEST_14.dir\libs\data_structures\unorderedset\unorderedset.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TEST_14.dir
+  OBJECT_FILE_DIR = CMakeFiles\TEST_14.dir\libs\data_structures\unorderedset
+
+build CMakeFiles/TEST_14.dir/libs/data_structures/vectorvoid/vectorvoid.c.obj: C_COMPILER__TEST_14_unscanned_Debug C$:/TEST$ 14/libs/data_structures/vectorvoid/vectorvoid.c || cmake_object_order_depends_target_TEST_14
+  DEP_FILE = CMakeFiles\TEST_14.dir\libs\data_structures\vectorvoid\vectorvoid.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TEST_14.dir
+  OBJECT_FILE_DIR = CMakeFiles\TEST_14.dir\libs\data_structures\vectorvoid
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TEST_14
@@ -69,7 +99,7 @@ build CMakeFiles/TEST_14.dir/libs/data_structures/vector/vector.c.obj: C_COMPILE
 #############################################
 # Link the executable TEST_14.exe
 
-build TEST_14.exe: C_EXECUTABLE_LINKER__TEST_14_Debug CMakeFiles/TEST_14.dir/main.c.obj CMakeFiles/TEST_14.dir/libs/data_structures/vector/vector.c.obj
+build TEST_14.exe: C_EXECUTABLE_LINKER__TEST_14_Debug CMakeFiles/TEST_14.dir/main.c.obj CMakeFiles/TEST_14.dir/libs/data_structures/vector/vector.c.obj CMakeFiles/TEST_14.dir/libs/data_structures/matrix/matrix.c.obj CMakeFiles/TEST_14.dir/libs/data_structures/matrix/matrix_test.c.obj CMakeFiles/TEST_14.dir/libs/data_structures/orderedset/orderedset.c.obj CMakeFiles/TEST_14.dir/libs/data_structures/unorderedset/unorderedset.c.obj CMakeFiles/TEST_14.dir/libs/data_structures/vectorvoid/vectorvoid.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TEST_14.dir

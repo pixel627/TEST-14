@@ -1,3 +1,8 @@
 # ninja log v5
 0	310	7328905596980064	CMakeFiles/TEST_14.dir/main.c.obj	1fefdf1de59d8277
 312	797	7328905601735955	TEST_14.exe	1942a3d627b73f45
+4	212	7328939370413141	CMakeFiles/TEST_14.dir/libs/data_structures/vector/vector.c.obj	c5180263dfaeda1f
+22	226	7328939370549501	CMakeFiles/TEST_14.dir/libs/data_structures/unorderedset/unorderedset.c.obj	c9c5a5d9e0924d5d
+11	228	7328939370576339	CMakeFiles/TEST_14.dir/libs/data_structures/matrix/matrix.c.obj	ba370004792bb811
+28	232	7328939370624789	CMakeFiles/TEST_14.dir/libs/data_structures/orderedset/orderedset.c.obj	a090e31fcac89a96
+16	273	7328939371030975	CMakeFiles/TEST_14.dir/libs/data_structures/matrix/matrix_test.c.obj	2a57feef20f7c7ff
